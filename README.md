@@ -2,8 +2,6 @@
 
 A smart lighting solution designed to enhance convenience, energy efficiency, and security for residential and commercial spaces. This project integrates IoT technology for remote control, scheduling, and monitoring, providing a user-friendly interface for managing lighting systems.
 
----
-
 ## Table of Contents
 - [System Overview](#system-overview)
 - [Features](#features)
@@ -17,8 +15,6 @@ A smart lighting solution designed to enhance convenience, energy efficiency, an
 - [Schematic Diagram](#schematic-diagram)
 - [Website Design](#website-design)
 
----
-
 ## System Overview
 
 This project leverages an ESP32 microcontroller to automate light bulbs via a web interface. The system includes features such as:
@@ -27,8 +23,6 @@ This project leverages an ESP32 microcontroller to automate light bulbs via a we
 - User-configurable scheduling for automated operations.
 - LED indicators for system status and diagnostics.
 
----
-
 ## Features
 
 - **Smart Control**: Control light bulbs remotely using a mobile or desktop web interface.
@@ -36,8 +30,6 @@ This project leverages an ESP32 microcontroller to automate light bulbs via a we
 - **Scheduling**: Automate lighting schedules for better energy efficiency.
 - **LED Indicators**: Visual feedback for system states.
 - **Secure Access**: Password-protected web interface.
-
----
 
 ## System Requirements
 
@@ -49,8 +41,6 @@ This project leverages an ESP32 microcontroller to automate light bulbs via a we
 - **XPJ-01D Power Module**: Supplies power to the components.
 - **Light Bulbs and Outlet Cords**: For lighting control.
 - **Enclosure Case**: Protects components.
-
----
 
 ## Installation
 
@@ -67,15 +57,11 @@ This project leverages an ESP32 microcontroller to automate light bulbs via a we
 2. Install required libraries: `ArduinoJson`, `WiFi`, `ESPAsyncWebServer`, and `ACS712`.
 3. Upload the provided code to the ESP32 using the Arduino IDE.
 
----
-
 ## Configuration
 
 1. Edit Wi-Fi credentials and system settings in the code.
 2. Upload the updated code to the ESP32.
 3. Power on the system to initialize the components.
-
----
 
 ## Testing
 
@@ -83,24 +69,16 @@ This project leverages an ESP32 microcontroller to automate light bulbs via a we
 2. Test the web interface by accessing it through the ESP32's IP address or hostname.
 3. Validate bulb control, scheduling, and real-time monitoring functionality.
 
----
-
 ## Operation
 
 1. Power on the system.
 2. Connect to the ESP32's Wi-Fi network.
 3. Access the web interface to control bulbs, schedule operations, and view historical data.
 
----
-
 ## Schematic Diagram
 
-![Schematic Diagram](/Schematic_Diagram.png)
-
----
+![Schematic Diagram](/Schematic_Diagram.PNG)
 
 ## Website Design
 
 ![Website Design](/Website_Design.png)
-
----
